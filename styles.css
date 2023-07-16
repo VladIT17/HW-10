@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+}
+
+.square-1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    z-index: -1;
+}
+
+.square-2 {
+    position: absolute;
+    top: 200px;
+    left: 175px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    z-index: 1;
+}
+
+.square-3 {
+    position: absolute;
+    top: 330px;
+    left: 320px;
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    z-index: -2;
+}
+
